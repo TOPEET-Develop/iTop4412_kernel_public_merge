@@ -30,6 +30,7 @@ example:
 2 android OS ,scp CoreBoard,supper bottom board
 
   #cp config_for_android_scp_supper
+  
   # make zImage
 
 3 android OS ,pop CoreBoard,elite bottom board
@@ -59,6 +60,7 @@ example:
 7 Ubuntu OS,pop CoreBoard,elite bottom board & supper bottom
   
   #cp config_for_ubuntu_pop
+  
   #make zImage
 
 8 Ubuntu OS,scp CoreBoard,elite bottom board & supper bottom
