@@ -13,8 +13,11 @@ ZZ is bottom board type: elite or supper
 
 Note:
    pop have two types:pop or pop2G,default pop is pop1G DDR. pop2G is pop 2G DDR .
+
    scp donot ,it is "scp" on kernel config file,regardless DDR is 1G or 2G.
+
    android is android4.0.3 version.android4.4.4 have other kernel version.
+
 
 example:
 
