@@ -26,7 +26,7 @@
 static struct samsung_asv *exynos_asv;
 unsigned int exynos_result_of_asv;
 /* add by cym 20130318 for 4412 SCP */
-#if defined(CONFIG_CPU_TYPE_SCP_ELITE) || defined(CONFIG_CPU_TYPE_SCP_SUPPER) || defined(CONFIG_CPU_TYPE_POP2G_ELITE) || defined(CONFIG_CPU_TYPE_POP2G_SUPPER) 
+#if defined(CONFIG_CPU_TYPE_SCP_ELITE) || defined(CONFIG_CPU_TYPE_SCP_SUPPER) || defined(CONFIG_CPU_TYPE_POP2G_ELITE) || defined(CONFIG_CPU_TYPE_POP2G_SUPPER)
 unsigned int exynos_special_flag;
 bool exynos_dynamic_ema;
 #endif
@@ -46,7 +46,7 @@ static int __init exynos4_asv_init(void)
 		ret = exynos4x12_asv_init(exynos_asv);
 
 		/* add by cym 20130710 */
-#if defined(CONFIG_CPU_TYPE_SCP_ELITE) || defined(CONFIG_CPU_TYPE_SCP_SUPPER) || defined(CONFIG_CPU_TYPE_POP2G_ELITE) || defined(CONFIG_CPU_TYPE_POP2G_SUPPER) 
+#if defined(CONFIG_CPU_TYPE_SCP_ELITE) || defined(CONFIG_CPU_TYPE_SCP_SUPPER)
 		/*
 		* If return value is not zero,
 		* There is already value for asv group.	

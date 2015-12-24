@@ -29,7 +29,7 @@
 #define HPM_MASK	0x1F
 
 /* modify by cym 20130318 for 4412 SCP */
-#if  defined(CONFIG_CPU_TYPE_SCP_ELITE) || defined(CONFIG_CPU_TYPE_SCP_SUPPER) || defined(CONFIG_CPU_TYPE_POP2G_ELITE) || defined(CONFIG_CPU_TYPE_POP2G_SUPPER) 
+#if  defined(CONFIG_CPU_TYPE_SCP_ELITE) || defined(CONFIG_CPU_TYPE_SCP_SUPPER)
 #define EXYNOS4412_REV_2_0     (0x20)
 
 #define FUSED_SG_OFFSET		3

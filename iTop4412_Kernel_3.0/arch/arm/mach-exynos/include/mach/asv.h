@@ -72,7 +72,7 @@ static inline void exynos4x12_set_abb(unsigned int abb_mode_value)
 
 	tmp |= abb_mode_value;
 	
-	printk("************ %s:0x%x, 0x%x, 0x%x, 0x%x, 0x%x\n", __FUNCTION__,
+	printk("%s:0x%x, 0x%x, 0x%x, 0x%x, 0x%x\n", __FUNCTION__,
                         __raw_readl(S5P_ABB_INT),
                         __raw_readl(S5P_ABB_MIF),
                         __raw_readl(S5P_ABB_G3D),

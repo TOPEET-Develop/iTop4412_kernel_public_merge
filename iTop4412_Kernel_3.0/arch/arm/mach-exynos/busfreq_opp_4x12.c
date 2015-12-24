@@ -673,7 +673,7 @@ static void exynos4x12_set_bus_volt(void)
 
 	if (asv_group_index == 0xff 
 			/* modify by cym 20130318 for 4412 SCP */
-#ifndef CONFIG_CPU_TYPE_SCP_ELITE  || !defined(CONFIG_CPU_TYPE_SCP_SUPPER) || !defined(CONFIG_CPU_TYPE_POP2G_ELITE) || !defined(CONFIG_CPU_TYPE_POP2G_SUPPER)
+#if !defined CONFIG_CPU_TYPE_SCP_ELITE  && !defined(CONFIG_CPU_TYPE_SCP_SUPPER) && !defined(CONFIG_CPU_TYPE_POP2G_ELITE) && !defined(CONFIG_CPU_TYPE_POP2G_SUPPER)
 
 			|| soc_is_exynos4212()
 #endif
