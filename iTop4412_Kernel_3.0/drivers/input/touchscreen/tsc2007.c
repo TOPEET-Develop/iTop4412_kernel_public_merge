@@ -376,7 +376,13 @@ static void tsc2007_work(struct work_struct *work)
 		}
 #if 1
 		x = SCREEN_MAX_X - tc.y;
+		/* modify by cym 20160115 */
+#if 0
 		y = tc.x;
+#else
+		y = tc.x - 20;
+#endif
+		/* end modify */
 #else
 		//x = (tc.x * 48)/80;
 		//y = (tc.y * 80)/48;
