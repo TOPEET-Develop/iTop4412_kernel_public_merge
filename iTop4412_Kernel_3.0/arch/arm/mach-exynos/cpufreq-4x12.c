@@ -359,7 +359,7 @@ static const unsigned int asv_voltage_step_12_5[CPUFREQ_LEVEL_END][13] = {
         { 937500,  925000,  925000+12500,      925000,  912500,  900000,  887500,  887500,  887500,  887500,  875000,  875000,  875000},/*L13*/
         { 925000,  912500,  912500+12500,      912500,  900000,  887500,  887500,  887500,  887500,  887500,  875000,  875000,  875000},/*L14*/
 };
-#elif defined(CONFIG_CPU_TYPE_SCP_ELITE) || defined(CONFIG_CPU_TYPE_SCP_ELITE)
+#elif defined(CONFIG_CPU_TYPE_SCP_ELITE) || defined(CONFIG_CPU_TYPE_SCP_SUPPER)
 static const unsigned int asv_voltage_step_12_5[CPUFREQ_LEVEL_END][12] = {
         /*   ASV0,    ASV1,    ASV2,    ASV3,    ASV4,    ASV5,    ASV6,    ASV7,    ASV8,    ASV9,   ASV10,   ASV11 */
         { 1375000, 1375000, 1375000, 1375000, 1375000, 1375000,  1375000, 1375000, 1375000, 1375000, 1375000, 1375000 }, /* L0 - Not used */
